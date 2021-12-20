@@ -1,10 +1,11 @@
 html {
-font-family: 'Courier New', Courier, monospace;
+font-family: 'Courier New', Courier, monospace,"メイリオ";
 }
 
 .header {
     background-color: #0049c8;
-    height: 90px;
+    height: 100px;
+    padding: 10px;
     color: #fff;
 }
 
@@ -19,3 +20,33 @@ font-family: 'Courier New', Courier, monospace;
     padding: 30px 20px;
     float: right;
 }
+
+.main{
+    padding: 20px;
+}
+
+.title h1{
+    font-size:100px;
+    padding: 20px;
+}
+
+.footer{
+    background-color: #2f5167;
+    color: #fff;
+    height: 120px;
+    padding: 40px;
+}
+
+.footer-logo{
+    float: left;
+    font-size: 30px;
+}
+
+.footer-list{
+    float: right;
+}
+
+.footer-list li{
+    list-style: none;
+}
+
