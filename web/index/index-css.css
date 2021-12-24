@@ -7,6 +7,7 @@ font-family: 'Courier New', Courier, monospace,"メイリオ";
     height: 100px;
     padding: 10px;
     color: #fff;
+
 }
 
 .header-rogo{
@@ -23,11 +24,34 @@ font-family: 'Courier New', Courier, monospace,"メイリオ";
 
 .main{
     padding: 20px;
+    height: 500px;
 }
 
 .title h1{
     font-size:100px;
     padding: 20px;
+}
+
+.profile-head{
+    color:#fff;
+    background-color: #0049c8;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 225px;
+}
+
+.profile-body{
+    margin-top: 0px;
+    border: 5px solid #2f5167;
+    border-top: 1px solid #fff;
+}
+
+.profile-body h2,p{
+    padding-left: 20px;
+}
+
+.profile-body img{
+    float:right
 }
 
 .footer{
